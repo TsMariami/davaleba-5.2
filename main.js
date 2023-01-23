@@ -18,7 +18,8 @@ const ul = document.getElementById('u')
 
 var id= todolist.length +1
 
-// button.addEventListener('click', additemtolist)
+
+button.addEventListener('click', additemtolist)
 
 function additemtolist() 
 { let newInputValue= input.value
